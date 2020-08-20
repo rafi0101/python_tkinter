@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #this should be a little ui with an picture in it
 # import tkinter as tk
 
@@ -14,4 +15,6 @@ label = tk.Label(programm, image=logo).pack(side="top")
 programm.mainloop()
 # main loop schleife muss immer am ende stehen
 # aktualisiert das programm wärend der laufzeit
+=======
+>>>>>>> 09d42a44dc31b815ff7d59ad93a5f8f605186881
 
