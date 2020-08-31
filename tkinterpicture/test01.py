@@ -1,3 +1,4 @@
+#dieses Programm läuft nur wenn es über die Konsole ausgeführt wird manuell sonst gibt es eine Fehlermeldung
 #this should be a little ui with an picture in it
 # import tkinter as tk
 
@@ -9,9 +10,9 @@ programm = tk.Tk()
 # erstellt ein fenster namens programm
 logo = PhotoImage(file="homer.gif")
 # importiert foto 
-label = tk.Label(programm, image=logo).pack(side="top")
+label = tk.Label(programm, image=logo)
+label.pack(side="top")
 # weist foto ein paar eigenschaften zu 
 programm.mainloop()
 # main loop schleife muss immer am ende stehen
 # aktualisiert das programm wärend der laufzeit
-

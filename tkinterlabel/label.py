@@ -14,11 +14,10 @@ root.config(bg="blue")
 # bringt das tkinter Fenster in den Vollbildmodus
 w, h = root.winfo_screenwidth(), root.winfo_screenheight()
 root.geometry("%dx%d+0+0" % (w, h))
-root.mainloop()
 # erstellt ein Label das einen Text im Fenster root angibt mit dem Inhalt Hello world
 label1 = tkinter.Label(root, text="hello world")
 #gibt das label aus auf dem Fenster root
-label1.pack()
+label1.pack(fill="x")
 
 #mainloop muss immer am Ende stehen
 root.mainloop()
