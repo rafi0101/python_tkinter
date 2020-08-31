@@ -1,6 +1,4 @@
 import tkinter
-
-
 #erstellt ein kleines tkinter fenster
 root = tkinter.Tk()
 #gibt dem fenster einen Namen oder eine Überschrift je nachdem
@@ -17,7 +15,6 @@ root.geometry("%dx%d+0+0" % (w, h))
 # erstellt ein Label das einen Text im Fenster root angibt mit dem Inhalt Hello world
 label1 = tkinter.Label(root, text="hello world")
 #gibt das label aus auf dem Fenster root
-label1.pack(fill="x")
-
+label1.pack(fill="y", expand="true")
 #mainloop muss immer am Ende stehen
 root.mainloop()
