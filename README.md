@@ -1,5 +1,10 @@
-# python_tkinter
- tkinter_projects
+# Python tkinter
+
+
+### Requirements
+ * Python 3
+
+### This Project contains
 
 1. 21.08.2020 Tkinter Programm showing a Picture from Homer Simpson
 
