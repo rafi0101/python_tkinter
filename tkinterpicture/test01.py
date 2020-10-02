@@ -8,7 +8,7 @@ from tkinter import PhotoImage
 # import photoimage packet von tkinter um fotos darzustellen
 programm = tk.Tk()
 # erstellt ein fenster namens programm
-logo = PhotoImage(file="C:/Users/lukas_paul/OneDrive/Dokumente/GitHub/python_tkinter/tkinterpicture/homer.gif")
+logo = PhotoImage(file="tkinterpicture/homer.gif")
 # importiert foto 
 label = tk.Label(programm, image=logo)
 label.pack(side="top")
